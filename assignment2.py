@@ -1,7 +1,6 @@
 #ask user to input name
 username = input("what is your name: ").title()
-username = username.strip()  #removing white spaces at the beginning or end of the username (accidental or not)
-
+username = username.strip() #removing white spaces at the beginning or end of the username (accidental or not)
 display = len(username)
 display2 = len(username.split())
 first_word = username.split()[0]
